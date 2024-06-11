@@ -2,10 +2,12 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbName = "shop";
+$dbname = "Shop";
 
-$conn = mysqli_connect($servername, $username, $password, $dbName);
+
+$conn = mysqli_connect($servername, $username, $password,$dbname);
 
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
+

@@ -58,3 +58,25 @@ svg:hover{
 img:hover{
     cursor: pointer;
 }
+
+.dropdown-menu{
+    background-color: rgba(255, 255, 255, 0.85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+
+}
+
+.teststyle{
+    padding: 10px;
+    text-align: center;
+}
+
+.teststyle:hover{
+    background-color: rgba(0, 0, 0, .85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+}
+
+.dropdown-menu{
+    padding: 0;
+}
