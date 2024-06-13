@@ -32,13 +32,12 @@
                     <li class="nav-item"><a class="nav-link" href="Laptop.php">Laptops</a></li>
                     <li class="nav-item"><a class="nav-link" href="Computer.php">Computers</a></li>
                     <li class="nav-item">
-                        <!-- More Panel Dropdown -->
                         <div class="dropdown">
                             <a class="nav-link d-none d-sm-inline-block" href="#" role="button" id="moreDropdown" data-bs-toggle="dropdown" aria-expanded="false">
                                 More
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="moreDropdown">
-                                <li><a class="dropdown-item teststyle" href="AdminPanel.php  ">Admin Panel</a></li>
+                                <li><a class="dropdown-item teststyle" href="../php/Dashboard.php">Dashboard</a></li>
                             </ul>
                         </div>
                     </li>
@@ -50,7 +49,7 @@
                                     <path d="M20.5899 22C20.5899 18.13 16.7399 15 11.9999 15C7.25991 15 3.40991 18.13 3.40991 22" stroke="#8e8e8e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                                 </g>
                             </svg></a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                    <li class="nav-item"><a class="nav-link" href="Checkout.php"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
                                 <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
                             </svg></a></li>
                     <li class="nav-item"><a class="nav-link" href="#">

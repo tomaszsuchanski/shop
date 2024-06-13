@@ -67,8 +67,12 @@ img:hover{
 }
 
 .teststyle{
+    color: #8e8e8e;
     padding: 10px;
     text-align: center;
+    border: 1px solid;
+    border-radius: 5px;
+
 }
 
 .teststyle:hover{

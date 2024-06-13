@@ -55,7 +55,6 @@
         </div>
     </div>
 </nav>
-
 <?php
 session_start();
 
@@ -71,14 +70,16 @@ if ($_SESSION['type'] != 'admin') {
 ?>
 <div class="container-fluid dashboard">
 <?php
-echo "Welcome to the Database Manager, " . "<b>" . htmlspecialchars($_SESSION['username'])."!"."</b>"."<br><small>A quick and easy way to manage the database.</small>";
+echo "Welcome to the Database Manager, " . "<b>" . htmlspecialchars($_SESSION['username'])."!"."</b>"."<br><small>A quick and easy way to manage the database. Current time: </small>";
 ?>
+    <script src="../js/Clock.js"></script>
+    <small><span id="clock"></span></small>
 </div>
     <br>
 <div class="container-fluid dashboard">
     <div class="panel panel-default">
         <div class="panel-heading">
-            <b>Database Manager <small>Creator</small></b><br>
+            <b>Database Manager <small>Creator </small></b><br>
             <small>Add new products</small>
         </div>
         <div class="panel-body">

@@ -4,7 +4,6 @@ global $conn;
 include '../php/Config.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Get form data
     $name = $_POST['name'];
     $description = $_POST['description'];
     $type = $_POST['type'];
